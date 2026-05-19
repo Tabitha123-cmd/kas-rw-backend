@@ -101,4 +101,4 @@ def delete(id: int):
     db.close() 
     if affected == 0: 
         raise HTTPException(status_code=404, detail="Transaksi tidak ditemukan") 
-    return {"message": "Transaksi berhasil dihapus"} 
+    return {"message": "Transaksi berhasil dihapus"}
